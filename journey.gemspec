@@ -27,14 +27,12 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<racc>, [">= 1.4.6"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.11"])
       s.add_development_dependency(%q<json>, [">= 0"])
-      s.add_development_dependency(%q<rdoc>, ["~> 3.10"])
       s.add_development_dependency(%q<hoe>, ["~> 2.13"])
     else
       s.add_dependency(%q<minitest>, ["~> 2.11"])
       s.add_dependency(%q<racc>, [">= 1.4.6"])
       s.add_dependency(%q<rdoc>, ["~> 3.11"])
       s.add_dependency(%q<json>, [">= 0"])
-      s.add_dependency(%q<rdoc>, ["~> 3.10"])
       s.add_dependency(%q<hoe>, ["~> 2.13"])
     end
   else
@@ -42,7 +40,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<racc>, [">= 1.4.6"])
     s.add_dependency(%q<rdoc>, ["~> 3.11"])
     s.add_dependency(%q<json>, [">= 0"])
-    s.add_dependency(%q<rdoc>, ["~> 3.10"])
     s.add_dependency(%q<hoe>, ["~> 2.13"])
   end
 end
